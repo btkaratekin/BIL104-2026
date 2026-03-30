@@ -10,8 +10,8 @@ namespace Ornek01
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
+    static void Main(string[] args)
+    {
 
 
 
@@ -25,5 +25,5 @@ namespace Ornek01
        
 
 
-    }
+  }
 }
