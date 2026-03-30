@@ -10,9 +10,6 @@ namespace Ornek01
     internal class MaviYaka:Personel
     {
 
-       
-
-
         string vardiya;
 
         public string Vardiya { get { return vardiya; } }
