@@ -21,14 +21,13 @@ namespace Ornek01
             
         }
 
-        public void BilgileriGosterM()
+        public void BilgileriGoster()
         {
             Console.WriteLine("Personel Bilgileri");
             Console.WriteLine("Adı Soyadı.......: " + AdiSoyadi);
             Console.WriteLine("SicilNo..........: " + SicilNo);
             Console.WriteLine("Departmanı.......: " + Departman);
-            Console.WriteLine("Vardiyası........: " + Vardiya);
-            
+            Console.WriteLine("Vardiyası........: " + Vardiya);  
         }
     }
 }

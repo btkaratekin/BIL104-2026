@@ -17,12 +17,12 @@ namespace Ornek01
         protected decimal maas;
 
         public string AdiSoyadi { get { return adi + " " + soyadi; } }
-        public int SicilNo { get { return sicilno; }}
+        public int SicilNo { get { return sicilno; } }
         public string Departman { get { return departman; } }
 
         public Personel()
         {
-            
+
         }
         public Personel(string name, string surname, int identity, string department, decimal salary)
         {
@@ -32,12 +32,12 @@ namespace Ornek01
             this.departman = department;
             this.maas = salary;
         }
-        public void BilgileriGoster()
-        {
-            Console.WriteLine("Personel Bilgileri");
-            Console.WriteLine("Adı Soyadı.......: " + AdiSoyadi);
-            Console.WriteLine("SicilNo..........: " + SicilNo);
-            Console.WriteLine("Departmanı.......: " + Departman);
-        }
+        //public void BilgileriGoster()
+        //{
+        //    Console.WriteLine("Personel Bilgileri");
+        //    Console.WriteLine("Adı Soyadı.......: " + AdiSoyadi);
+        //    Console.WriteLine("SicilNo..........: " + SicilNo);
+        //    Console.WriteLine("Departmanı.......: " + Departman);
+        //}
     }
 }
