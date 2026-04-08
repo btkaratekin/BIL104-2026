@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek01", "Ornek01\Ornek01.csproj", "{813184E1-A904-4DB8-8DB9-FEC6A98208CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek02", "Ornek02\Ornek02.csproj", "{57265AAA-42AF-4F6B-B5AA-C277E8E90138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek03", "Ornek03\Ornek03.csproj", "{04F712F8-0D46-49D5-BCD2-07F51FFB392B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813184E1-A904-4DB8-8DB9-FEC6A98208CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813184E1-A904-4DB8-8DB9-FEC6A98208CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813184E1-A904-4DB8-8DB9-FEC6A98208CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813184E1-A904-4DB8-8DB9-FEC6A98208CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57265AAA-42AF-4F6B-B5AA-C277E8E90138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57265AAA-42AF-4F6B-B5AA-C277E8E90138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57265AAA-42AF-4F6B-B5AA-C277E8E90138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57265AAA-42AF-4F6B-B5AA-C277E8E90138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F712F8-0D46-49D5-BCD2-07F51FFB392B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F712F8-0D46-49D5-BCD2-07F51FFB392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F712F8-0D46-49D5-BCD2-07F51FFB392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F712F8-0D46-49D5-BCD2-07F51FFB392B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A5D792D-73D1-4BAF-A03B-DE675AB50B25}
+	EndGlobalSection
+EndGlobal
