@@ -9,9 +9,6 @@ namespace PersonelOrnek
         {
             Console.OutputEncoding=Encoding.UTF8;
             Isci w1 = new Isci("İsmail", "Karaman", 10001, "Gündüz", "Bakım Onarım","Teknisyen");
-            
-            //w1.BilgileriGoster();
-            //w1.MesaiHesapla();
             Usta u1 = new Usta();
             u1.Adi = "Mehmet";
             u1.Soyadi = "Güneş";
@@ -24,6 +21,15 @@ namespace PersonelOrnek
             Console.WriteLine();
             u1.BilgileriGoster();
             u1.MesaiHesapla();
+
+            Muhendis e1 = new Muhendis("İsmail", "KARAMAN", 10001, "OPERASYON");
+            e1.BilgileriGoster();
+            e1.MaasGoster();
+            Console.WriteLine();
+            e1.ProjeOlustur("E-Ticaret", 500000M);
+            e1.BilgileriGoster();
+            e1.MaasGoster();
+
             Console.ReadKey();
             
         }

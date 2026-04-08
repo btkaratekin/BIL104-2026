@@ -56,11 +56,9 @@ namespace PersonelOrnek
 
         }
 
-        public void BilgileriGoster()
+        public override void BilgileriGoster()
         {
-            Console.WriteLine("Personel Bilgileri");
-            Console.WriteLine("Sicil No.........: " + sicilno);
-            Console.WriteLine("Adı Soyadı.......: " + adi + " " + soyadi);
+            base.BilgileriGoster();
             Console.WriteLine("Statüsü..........: Mavi Yakalı Personel");
             Console.WriteLine("Departmanı.......: " + departman);
             Console.WriteLine("Ünvanı...........: " + unvan);

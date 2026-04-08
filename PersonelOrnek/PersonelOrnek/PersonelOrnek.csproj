@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeyazYaka.cs" />
     <Compile Include="Isci.cs" />
     <Compile Include="MaviYaka.cs" />
+    <Compile Include="Muhendis.cs" />
     <Compile Include="Personel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
