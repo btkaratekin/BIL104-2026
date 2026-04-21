@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37027.9 d17.14
+VisualStudioVersion = 17.14.37027.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek01", "Ornek01\Ornek01.csproj", "{84349BF8-2FAC-4982-A026-A69C3A889CAA}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek06", "Ornek06\Ornek06.csproj", "{58591CEF-D7DB-4706-BDA3-2F9DA9A7897B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek07", "Ornek07\Ornek07.csproj", "{22DB507A-1584-4849-B8BD-799E65F710D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek08", "Ornek08\Ornek08.csproj", "{49DE3B15-665D-4C34-9221-480DFEB68F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{22DB507A-1584-4849-B8BD-799E65F710D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22DB507A-1584-4849-B8BD-799E65F710D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22DB507A-1584-4849-B8BD-799E65F710D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DE3B15-665D-4C34-9221-480DFEB68F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DE3B15-665D-4C34-9221-480DFEB68F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DE3B15-665D-4C34-9221-480DFEB68F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DE3B15-665D-4C34-9221-480DFEB68F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,7 +22,7 @@ namespace PersonelOrnek
             u1.BilgileriGoster();
             u1.MesaiHesapla();
 
-            Muhendis e1 = new Muhendis("İsmail", "KARAMAN", 10001, "OPERASYON");
+            Muhendis e1 = new Muhendis("Ahmet", "SARIKAYA", 10001, "OPERASYON");
             e1.BilgileriGoster();
             e1.MaasGoster();
             Console.WriteLine();
