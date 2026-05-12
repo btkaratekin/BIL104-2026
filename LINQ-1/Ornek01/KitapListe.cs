@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace KitaplarOrnek
+namespace Ornek01
 {
     internal static class KitapListe
     {
