@@ -134,10 +134,9 @@ namespace Ornek01
         {
             Console.Clear();
             Console.WriteLine("1950 - 2000 Yılları Arasında Yayınlanan En Pahalı Kitap Bilgisi\n");
-            Kitap EnPahaliKitap = Kitaplar.Where(x => x.BasimYili >= 1950 && x.BasimYili <= 2000).OrderByDescending(y => y.Fiyat).FirstOrDefault();
+            Kitap EnPahaliKitap = Kitaplar.Where(x => x.BasimYili >= 1950 && x.BasimYili <= 2000).OrderBy(y => y.Fiyat).LastOrDefault();
             
-            //Bu sekilde de aynı bilgi elde edilebilir.
-            Kitap EnPahaliKitap2 = Kitaplar.LastOrDefault(x => x.BasimYili >= 1950 && x.BasimYili <= 2000);
+           
 
             Console.WriteLine("En Pahalı Kitap");
             Console.WriteLine("Adı........: " + EnPahaliKitap.Adi);
