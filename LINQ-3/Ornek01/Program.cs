@@ -44,20 +44,7 @@ namespace Ornek01
                         }
                     case 4:
                         {
-                            Console.Clear();
-                            Console.WriteLine("YayınEvlerine Ait Kitaplar Listesi\n");
-                            var Liste = Kitaplar.GroupBy(k => k.YayinEvi).Select(g => new { YayinEvi = g.Key, Kitaplar = g.ToList() }).OrderBy(g => g.YayinEvi).ToList();
-                            foreach (var yayinEvi in Liste)
-                            {
-                                Console.WriteLine("* " + yayinEvi.YayinEvi);
-                                foreach (var kitap in yayinEvi.Kitaplar)
-                                {
-                                    Console.WriteLine("\t- " + kitap.Adi);
-                                }
-                                Console.WriteLine();
-                            }
-                            Console.Write("\nDevam Etmek İçin Bir Tuşa Basın....");
-                            Console.ReadKey();
+                            YayinEviVeKitaplar();
                             break;
                         }
                     case 5:
@@ -89,6 +76,24 @@ namespace Ornek01
                 }
             }
 
+        }
+
+        private static void YayinEviVeKitaplar()
+        {
+            Console.Clear();
+            Console.WriteLine("YayınEvlerine Ait Kitaplar Listesi\n");
+            var Liste = Kitaplar.GroupBy(k => k.YayinEvi).Select(g => new { YayinEvi = g.Key, Kitaplar = g.ToList() }).OrderBy(g => g.YayinEvi).ToList();
+            foreach (var yayinEvi in Liste)
+            {
+                Console.WriteLine("* " + yayinEvi.YayinEvi);
+                foreach (var kitap in yayinEvi.Kitaplar)
+                {
+                    Console.WriteLine("\t- " + kitap.Adi);
+                }
+                Console.WriteLine();
+            }
+            Console.Write("\nDevam Etmek İçin Bir Tuşa Basın....");
+            Console.ReadKey();
         }
 
         private static void BasimYiliveKitaplar()
